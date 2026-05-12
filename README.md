@@ -5,3 +5,6 @@ The file outputs a series of bits that correspond to co-efficients of process ma
 I.e.  a + b*x_1 + c*x_2 + d*x_3 + e *f_4 + g*x_1*x_2 + .... 
 
 The addition used is binary addition. 
+
+This search program is what was used in Germain Tobar and Fabio Costa 2020 Class. Quantum Grav. 37 205011, and remains correct as it checks the fixed point condition, rather than the characterisation theorem which was later shown to have a conter example in Dourdent et al arXiv:2512.23599.
+
