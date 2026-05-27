@@ -4,5 +4,5 @@ The file outputs a series of bits that correspond to co-efficients of multi-part
 
 This search program is what was used in Germain Tobar and Fabio Costa 2020 Class. Quantum Grav. 37 205011, and remains correct as it checks the fixed point condition, rather than the characterisation theorem of Ämin Baumeler et al 2019 Class. Quantum Grav. 36 224002, and extended to multiple parties in Germain Tobar and Fabio Costa 2020 Class. Quantum Grav. 37 205011, which was later shown to have a counter example in Dourdent et. al. arXiv:2512.23599, which extends the proof of Germain Tobar and Fabio Costa 2020 Class. Quantum Grav. 37 205011 to exclude such counter-examples.
 
-The timetest4player.py file checks if an arbitrary output-input function is a valid process matrix by checking the fixed point condition for all possible local operations of all parties.
+The timetest4player.py file checks if an arbitrary output-input function is a valid process matrix by checking the fixed point condition for all possible local operations of all parties. In order to use it: modify the Timeloop functions for each player, which corresponds to selecting a different process matrix.
 
